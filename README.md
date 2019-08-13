@@ -1,2 +1,6 @@
 # blog
-My personal blog, using Github issue.
+我的个人博客，基于Github issue.
+
+# 分类目录
+## git
+[https://github.com/dnxbjyj/blog/issues/1][多个Github账号的仓库共存的配置]
