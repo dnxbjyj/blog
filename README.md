@@ -3,4 +3,4 @@
 
 # 分类目录
 ## git
-[https://github.com/dnxbjyj/blog/issues/1][多个Github账号的仓库共存的配置]
+[多个Github账号的仓库共存的配置][https://github.com/dnxbjyj/blog/issues/1]
