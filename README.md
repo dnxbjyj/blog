@@ -6,6 +6,7 @@
 - [Emacs入坑之旅——常用基本操作](https://github.com/dnxbjyj/blog/issues/3)
 
 ## 编程工具
+- [python包管理工具pip的安装和使用](https://github.com/dnxbjyj/blog/issues/4)
 - [python虚拟化运行环境——virtualenv](https://github.com/dnxbjyj/blog/issues/2)
 
 ## git
