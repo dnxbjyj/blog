@@ -6,6 +6,7 @@
 - [tech-journal](https://github.com/dnxbjyj/blog/issues/7)
 
 ## emacs
+- [在buffer和字符串中正则搜索和替换的多种方式集锦](https://github.com/dnxbjyj/blog/issues/8)
 - [Emacs入坑之旅——配置文件模块化](https://github.com/dnxbjyj/blog/issues/5)
 - [Emacs入坑之旅——常用基本操作](https://github.com/dnxbjyj/blog/issues/3)
 
