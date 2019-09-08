@@ -16,5 +16,5 @@
 - [python包管理工具pip的安装和使用](https://github.com/dnxbjyj/blog/issues/4)
 - [python虚拟化运行环境——virtualenv](https://github.com/dnxbjyj/blog/issues/2)
 
-## git
+## Git
 - [多个Github账号的仓库共存的配置](https://github.com/dnxbjyj/blog/issues/1)
