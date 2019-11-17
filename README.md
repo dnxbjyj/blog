@@ -6,6 +6,7 @@
 - [tech-journal](https://github.com/dnxbjyj/blog/issues/7)
 
 ## Emacs
+- [[elisp-snippet] region的基本操作](https://github.com/dnxbjyj/blog/issues/11)
 - [关于扩展Emacs插件能力的思考](https://github.com/dnxbjyj/blog/issues/9)
 - [在buffer和字符串中正则搜索和替换的多种方式集锦](https://github.com/dnxbjyj/blog/issues/8)
 - [Emacs入坑之旅——配置文件模块化](https://github.com/dnxbjyj/blog/issues/5)
