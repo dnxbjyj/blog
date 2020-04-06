@@ -12,8 +12,6 @@
 - [Emacs入坑之旅——配置文件模块化](https://github.com/dnxbjyj/blog/issues/5)
 - [Emacs入坑之旅——常用基本操作](https://github.com/dnxbjyj/blog/issues/3)
 
-## MacOS
-- [MacOS使用日常](https://github.com/dnxbjyj/blog/issues/10)
 
 ## 编程工具
 - [python打包工具pyinstaller的用法](https://github.com/dnxbjyj/blog/issues/6)
