@@ -5,6 +5,7 @@
 - [Pelican Quickstart](https://getpelican.com/#quickstart)
 
 # TMP
+## quick start
 - 安装pip依赖：
 
 ```bash
@@ -43,8 +44,21 @@ Hi, pelican!
 - 启动博客：
 
 ```bash
-pelican -r -l
+pelican content -r -l -p 8000 -b 0.0.0.0 --ignore-caceh
+# 注：命令行参数解释：
 ```
 
 - 在浏览器打开`http://localhost:8000/`预览博客。
 
+
+## 设置cid极简主题
+- 下载主题：https://github.com/hdra/Pelican-Cid
+- 在博客根目录创建themes目录，把cid的代码全部放到themes目录下面。
+- 在`pelicanconf.py`文件中添加配置：
+
+```python
+THEME = "/Users/m2fox/hack/github/blog/themes/Pelican-Cid"
+THEME_TEMPLATES_OVERRIDES = ['/Users/m2fox/hack/github/blog/themes/Pelican-Cid/templates/']
+```
+
+## TODO 修改右上角菜单栏

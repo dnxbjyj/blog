@@ -1,0 +1,194 @@
+@import "manni"
+
+$break-small: 640px
+
+$text-color: #030303
+$bg-color: #fefefe
+$code-color: #c7254e
+$code-bg-color: #f9f2f4
+
+$header-font: 'Gentium Book Basic', 'Georgia', serif
+$body-font: 'Merriweather', 'Georgia', serif
+$monospace-font: 'Menlo', 'Monaco', 'Consolas', 'Courier New', monospace
+
+*
+    background-color: $bg-color
+    color: $text-color
+
+
+code, kbd, pre, samp
+    font-family: $monospace-font
+
+body
+    font-family: $body-font
+    font-weight: 300
+
+    a
+        font-weight: 400
+
+    h1, h2, h3, h4, h5, h6
+        font-family: $header-font
+        a
+            font-weight: bold
+
+    iframe
+        max-width: 100%
+        margin: 2em auto
+        display: block
+
+.disclaimer
+    text-align: center
+    font-size: 0.8em
+
+.nav
+    list-style: none
+    padding-left: 0
+    li
+        display: inline-block
+        margin-right: 0.56em
+        @media screen and (max-width: $break-small)
+            display: block
+            margin-right: 0
+
+.header-link
+    font-size: 70%
+    float: right
+
+.landing-container
+    width: 65%
+    margin: 2em auto 0
+    font-family: $body-font
+
+    li
+        font-family: $header-font
+
+    @media screen and (max-width: $break-small)
+        width: 100%
+        margin: 1em 0
+
+    header
+        font-size: 1.2em
+        h1
+            font-size: 4em
+            margin: 0.4em 0
+
+    ul
+        margin-top: 5em
+        margin-bottom: 3em
+        text-align: center
+
+        li
+            font-size: 2em
+
+.container
+    max-width: 56em
+    margin: 1em auto
+    @media screen and (max-width: $break-small)
+        margin: 0.8em
+
+    .paginator
+        text-align: center
+        margin: 3.2em 0
+
+    .blog-header
+        margin-bottom: 3em
+        position: relative
+        h1
+            margin-bottom: 0
+        p
+            margin-top: 0.2em
+        nav
+            position: absolute
+            top: 0
+            right: 0
+            margin: 0 2px
+            font-family: $header-font
+
+            @media screen and (max-width: $break-small)
+                position: relative
+                text-align: center
+
+        @media screen and (max-width: $break-small)
+            text-align: center
+
+    .nav
+        font-size: 1.2em
+
+    .blog-footer
+        margin-top: 2em
+        text-align: center
+
+    // The list of posts
+    .post-list
+        .post-overview
+            margin: 1em
+            position: relative
+            padding-left: 7em
+            time
+                position: absolute
+                left: 0em
+                top: 0.2em
+
+        @media screen and (max-width: $break-small)
+            .post-overview
+                margin: 0
+                top: 0em
+                padding-left: 0
+                time
+                    position: relative
+
+
+    // The post body
+    .post
+
+        font-size: 1.18em
+        @media screen and (max-width: $break-small)
+            font-size: 1em
+
+        h1
+            font-size: 1.5em
+        h2
+            font-size: 1.44em
+        h3
+            font-size: 1.3em
+        h4
+            font-size: 1.2em
+        h5, h6
+            font-size: 1.18em
+        a
+            font-weight: 400
+
+        img
+            max-width: 100%
+            height: auto
+            display: block
+            margin: 1.5em auto
+
+        code
+            padding: 2px 4px
+            font-size: 90%
+            color: $code-color
+            background-color: $code-bg-color
+            border-radius: 4px
+
+        .highlight
+            font-size: 0.9em
+            overflow-x: auto
+
+        blockquote
+            font-style: italic
+            font-weight: 300
+
+        header
+            margin: 2.2em 0
+            h1
+                font-size: 2.45em
+            p.date
+                margin-top: -1.3em
+
+        article
+            line-height: 1.73333em
+
+        footer
+            margin: 2em 0 3em
+            text-align: right

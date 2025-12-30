@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+        <h1>Archives</h1>
+
+        <div class="post-list">
+
+            {% for article in dates %}
+
+            <article class="post-overview">
+                <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+                <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time>
+            </article>
+
+            {% endfor %}
+
+        </div>
+
+{% endblock content %}

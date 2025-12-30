@@ -1,0 +1,26 @@
+<footer class="blog-footer">
+
+    <ul class="nav">
+        {% if USE_CUSTOM_MENU %}
+            {% for name, url in CUSTOM_MENUITEMS %}
+                <li><a href="{{ SITEURL }}/{{ url }}">{{ name }}</a></li>
+            {% endfor %}
+        {% else %}
+            {% for page in PAGES %}
+                <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+        {% endif %}
+        {% for title,url in CONTACTS %}
+            <li><a href="{{ url }}">{{ title|capitalize }}</a></li>
+        {% endfor %}
+        {% include 'email.html' %}
+    </ul>
+
+    <p class="disclaimer">
+    {% if SITEFOOTER %}
+        {{ SITEFOOTER }}
+    {% else %}
+    Built with <a href="http://getpelican.com">Pelican</a>, and <a href="https://github.com/hdra/Pelican-Cid">Cid</a> theme.
+    {% endif %}
+    </p>
+</footer>
