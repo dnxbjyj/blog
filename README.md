@@ -61,4 +61,8 @@ THEME = "/Users/m2fox/hack/github/blog/themes/Pelican-Cid"
 THEME_TEMPLATES_OVERRIDES = ['/Users/m2fox/hack/github/blog/themes/Pelican-Cid/templates/']
 ```
 
-## TODO 修改右上角菜单栏
+## 博客微调
+### TODO 在首页只展示文章的摘要，不要展示截断的文章内容
+### TODO 自定义文章的URL
+### TODO 修改右上角菜单栏
+
